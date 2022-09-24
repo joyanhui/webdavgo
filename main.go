@@ -16,7 +16,7 @@ var server_port_string string
 
 func init() {
 
-	ConfigData, err := os.ReadFile("config.json") // 读取文件
+	ConfigData, err := os.ReadFile("webdavgo.json") // 读取文件
 	var settingCfg string
 	if err == nil {
 		settingCfg = string(ConfigData)
