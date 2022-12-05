@@ -1,0 +1,8 @@
+{
+    "webdav_user_name":"admin",
+    "webdav_user_psw":"admin",
+    "webdav_server_port":18123,
+    "webdav_file_path":".",
+    "list_server_path":"/list/",
+    "list_file_path":"."
+}
