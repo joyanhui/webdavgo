@@ -52,4 +52,9 @@ git add .
 
 git commit -m "编译后自动提交-$RANDOM"
 # git pull
+
+export http_proxy="10.0.0.1:20172"
+export https_proxy="10.0.0.1:20172"
+
+
 git push -u origin master 
