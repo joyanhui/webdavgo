@@ -40,7 +40,7 @@ rm -rf $binDir/webdavgo_darwin_x64
 mv main $binDir/webdavgo_darwin_x64
 
 echo "macos arm 64  webdavgo_darwin_arm_x64"
-CGO_ENABLED=0 GOOS=darwin GOARCH=arm go build main.go
+CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build main.go
 rm -rf $binDir/webdavgo_darwin_arm_x64
 mv main $binDir/webdavgo_darwin_arm_x64
 
