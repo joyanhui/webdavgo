@@ -13,7 +13,7 @@ rm -rf $binDir/webdavgo_x86.exe
 mv main.exe $binDir/webdavgo_x86.exe
 
 echo "windows arm 64  webdavgo_arm_x64.exe"
-CGO_ENABLED=0 GOOS=windows GOARCH=arm go build main.go
+CGO_ENABLED=0 GOOS=windows GOARCH=arm64 go build main.go
 rm -rf $binDir/webdavgo_arm_x64.exe
 mv main.exe $binDir/webdavgo_arm_x64.exe
 
@@ -28,7 +28,7 @@ rm -rf $binDir/webdavgo_x86
 mv main $binDir/webdavgo_x86
 
 echo "linux arm 64  webdavgo_x64"
-CGO_ENABLED=0 GOOS=linux GOARCH=arm go build main.go
+CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build main.go
 rm -rf $binDir/webdavgo_arm_x64
 mv main $binDir/webdavgo_arm_x64
 
