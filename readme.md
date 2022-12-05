@@ -23,14 +23,9 @@ webdav可以加密码认证
 ### 下载
 直接下载bin目录下的文件
 ### 运行
-#### windows
-运行 `webdavgo_x64.exe`或者`webdavgo_x86.exe`
-#### linux下
-运行`webdavgo_x64`或者`webdavgo_x86`
-#### linux arm 
-运行`webdavgo_armx64`或者`webdavgo_armx86`
-#### macos
-运行 `webdav_darwin`
+windows 运行 `webdavgo_x64.exe`或者`webdavgo_x86.exe`  
+linux 运行`webdavgo_x64`或者`webdavgo_x86`  
+macos 运行 名字里面带`darwin`的
 ### 默认访问地址和密码
 #### webdav
 url: http://localhost:18123/  
@@ -39,7 +34,7 @@ url: http://localhost:18123/
 http://localhost:18123/list/
 无密码
 ### 配置
-编辑同目录下的`webdavgo.json` 文件
+编辑同目录下的`webdavgo.json` 文件，可以修改端口 用户名密码 和对应的路径，用户密码可以为空
 #### windows下指定目录
 使用类似 `D:\\\\VM` 即为D盘VM文件夹
 ### 开启ssl
@@ -178,7 +173,7 @@ http://YourHostAddress:server_port/list_server_path/
 基于 go 1.19
 `go get golang.org/x/net/webdav`
 
-其他参考即可 很简单 build.bat
+其他参考即可 很简单 build.sh
 
 ## 用途
 
