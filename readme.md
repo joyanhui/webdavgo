@@ -1,5 +1,9 @@
+已经停止更新，因为nginx  caddy  cloudreve之类的 更加简单方法一些！
+如果对功能要求比较高，建议用cloudreve，国产之光 
+
 # webdavgo
 > 一个轻量高性能简单可靠的webdav + httpFileSever（静态文件浏览服务） 的 实现
+
 
 使用go 1.19 开发 区区不到百行代码
 
